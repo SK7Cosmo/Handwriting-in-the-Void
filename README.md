@@ -14,8 +14,8 @@
 ---
 ## 🚀 How to Run
 
-1. Compile and run `MLP Model.py` to build and train the MLP model to recognize alphabets 
-2. Then run `Handwriting_recognizer.py`  
+1. Run `MLP Model.py` to build and train the MLP model to recognize alphabets 
+2. Run `Handwriting_recognizer.py` to start real-time tracking
 3. Use a green bottle cap in front of the webcam  
 4. Start writing in the air in front of the webcam to get predictions  
 
