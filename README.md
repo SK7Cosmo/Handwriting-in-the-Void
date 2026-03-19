@@ -1,5 +1,32 @@
-First compile **MLP Model.py** to build your MLP model to predict the alphabets
+## 🔄 Workflow
 
-Then, compile **Handwriting_recognizer.py** and *start writing with a bottle cap in front of web cam*
+### 📌 Data Processing & Input
+- Capture real-time video using webcam  
+- Detect colored object (green bottle cap in this case) using OpenCV  
+- Track motion to simulate handwriting in air  
+- Convert tracked path into image format  
+---
+### 🧠 Models Used
+- OpenCV for real-time tracking and preprocessing
+- Multilayer Perceptron (MLP) for alphabet classification  
 
-NOTE: I have made the input to be taken in real time from ***Webcam***. If needed, you can make the model to take a preloaded video as the input
+> The system recognizes English alphabets written in air and predicts them in real time.
+---
+## 🚀 How to Run
+
+1. Compile and run `MLP Model.py` to build and train the MLP model to recognize alphabets 
+2. Then run `Handwriting_recognizer.py`  
+3. Use a green bottle cap in front of the webcam  
+4. Start writing in the air in front of the webcam to get predictions  
+
+> ⚠️ NOTE:  
+> - The system currently takes input in real time using a webcam  
+> - You can modify it to accept a preloaded video as input if needed  
+---
+## 🛠️ Core Packages Used
+
+- OpenCV
+- Keras
+- NumPy  
+- Pandas    
+---
