@@ -1,6 +1,11 @@
 ## 🎥 Demo
-https://github.com/user-attachments/assets/f87d43b5-52f6-4a28-8c2c-652f86eba669
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/f87d43b5-52f6-4a28-8c2c-652f86eba669" controls></video>
+</p>
+
 ---
+
 ## 🔄 Workflow
 
 ### 📌 Data Processing & Input
@@ -8,28 +13,35 @@ https://github.com/user-attachments/assets/f87d43b5-52f6-4a28-8c2c-652f86eba669
 - Detect colored object (green bottle cap in this case) using OpenCV  
 - Track motion to simulate handwriting in air  
 - Convert tracked path into image format  
+
 ---
+
 ### 🧠 Models Used
-- OpenCV for real-time tracking and preprocessing
+- OpenCV for real-time tracking and preprocessing  
 - Multilayer Perceptron (MLP) for alphabet classification  
 
 > The system recognizes English alphabets written in air and predicts them in real time.
+
 ---
+
 ## 🚀 How to Run
 
-1. Run `MLP Model.py` to build and train the MLP model to recognize alphabets 
-2. Run `Handwriting_recognizer.py` to start real-time tracking
+1. Run `MLP Model.py` to build and train the MLP model to recognize alphabets  
+2. Run `Handwriting_recognizer.py` to start real-time tracking  
 3. Use a green bottle cap in front of the webcam  
-4. Start writing in the air in front of the webcam to get predictions  
+4. Start writing in the air to get predictions  
 
-> ⚠️ NOTE:  
+> ⚠️ **NOTE:**  
 > - The system currently takes input in real time using a webcam  
-> - You can modify it to accept a preloaded video as input if needed  
+> - It can be modified to accept a preloaded video as input  
+
 ---
+
 ## 🛠️ Core Packages Used
 
-- OpenCV
-- Keras
+- OpenCV  
+- Keras  
 - NumPy  
-- Pandas    
+- Pandas  
+
 ---
